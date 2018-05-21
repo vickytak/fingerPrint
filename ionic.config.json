@@ -1,6 +1,6 @@
 {
   "name": "fingerprint",
-  "app_id": "",
+  "app_id": "50333fea",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
