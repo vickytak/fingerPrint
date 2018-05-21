@@ -16,17 +16,17 @@ export class HomePage {
     }
   }
 
-  // async showFingerPrint(){
-  //   try{
-  //    const available = await this.fingerprint.isAvailable();
-  //    console.log(available);
+  async showFingerPrint(){
+    try{
+     const available = await this.fingerprint.isAvailable();
+     console.log(available);
     
-  //      const result = await this.fingerprint.show(this.fingerPrintOption);
-  //      console.log(result);
+       const result = await this.fingerprint.show(this.fingerPrintOption);
+       console.log(result);
     
-  //   }
-  //   catch(e){
-  //     console.log(e);
-  //   }
-  // }
+    }
+    catch(e){
+      console.log(e);
+    }
+  }
 }
